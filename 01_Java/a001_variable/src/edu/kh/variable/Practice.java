@@ -76,18 +76,7 @@ public class Practice {
 		
 		System.out.println( (char)(iNum1 + ch) ); // 'K'		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		// 주석주석하주석
 		
 		
 		
