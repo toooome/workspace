@@ -79,18 +79,7 @@ public class Practice {
 		System.out.println( iNum2 / iNum1);
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		// 주석주석하주석
 		
 		
 		
