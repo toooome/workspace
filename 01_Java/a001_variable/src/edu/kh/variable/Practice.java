@@ -74,10 +74,7 @@ public class Practice {
 		System.out.println( ch + iNum1 ); // 75
 		// int + char 형태에선 값의 범위가 작은 char가 자동 형변환이 됨
 		
-		System.out.println( (char)(iNum1 + ch) ); // 'K'
-		
-		System.out.println( iNum2 / iNum1);
-		
+		System.out.println( (char)(iNum1 + ch) ); // 'K'		
 		
 		
 		
