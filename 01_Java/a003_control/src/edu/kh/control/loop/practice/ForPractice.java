@@ -90,5 +90,100 @@ public class ForPractice {
 //		System.out.println(input + " = " + sum);
 //		
 		
+	
+	public void practice5() { 
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.print("숫자 : ");
+		int dan = sc.nextInt();
+		
+		System.out.printf("======= %단 ======= \n", dan);
+		
+		for(int i=1 ; i<=9 ; i++) {
+			System.out.printf("%d * %d = %d \n", dan, i, dan*i);
+		}
+		
+	}
+	
+	
+	
+	public void practice8() { 
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.print("정수 입력 : ");
+		int input = sc.nextInt();
+		
+		for(int row=input ; row>=1 ; row--) {
+			
+			for(int col=row ; col>=1 ; col--) {
+				System.out.print("*");
+				
+			}
+			
+			System.out.println();
+		}
+	
+	}
+	
+	
+	
+	public void practice11() { 
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.print("정수 입력 : ");
+		int input = sc.nextInt();
+		
+		for(int row=1 ; row<=input ; row++) {
 
+			/* for문 2개*/
+			// 빈칸(@) 먼저 출력
+			for(int col=input-row ; col>=1 ; col--) {
+				System.out.print(" ");
+			}
+			
+			for(int col=1 ; col<=row*2-1 ; col++) {
+				System.out.print("*");
+			}
+			
+		System.out.println(" ");
+		
+		}
+	}
+	
+	
+	public void practice12() { 
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.print("정수 입력 : ");
+		int input = sc.nextInt();
+		
+		for(int row=1 ; row<=input ; row++) {
+			
+			for(int col=1; col<=input ; col++) {
+				if(row==1 || row==input || col==1 || col==input) {
+					System.out.print("*");
+				} else {
+					System.out.print(" ");
+				}
+				
+				
+				System.out.print("*");
+			}
+			
+			System.out.println(); // 개행
+		} 
+	
+	
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
